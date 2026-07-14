@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema Escolar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Escola Futuro</h1>
+</header>
+
+<section class="hero">
+    <h1>Bem-vindo ao Sistema Escolar</h1>
+   <h2><p>Faça a sua matrícula de forma rápida e simples.<p/></h2>
+
+    <button id="btnMatricula">Fazer Matrícula</button>
+</section>
+
+<div id="modal" class="modal">
+    <div class="modal-content">
+        <span class="fechar">&times;</span>
+
+        <h2>Formulário de Matrícula</h2>
+
+        <form id="formulario">
+            <input type="text" placeholder="Nome Completo" required>
+
+            <input type="date" required>
+
+            <input type="text" placeholder="Nome do Pai">
+
+            <input type="text" placeholder="Nome da Mãe">
+
+            <input type="text" placeholder="Morada">
+
+            <input type="tel" placeholder="Telefone">
+
+            <input type="email" placeholder="Email">
+
+            <select required>
+                <option value="">Selecione a Classe</option>
+                <option>7ª Classe</option>
+                <option>8ª Classe</option>
+                <option>9ª Classe</option>
+                <option>10ª Classe</option>
+                <option>11ª Classe</option>
+                <option>12ª Classe</option>
+            </select>
+
+            <button type="submit">Enviar Matrícula</button>
+        </form>
+    </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
